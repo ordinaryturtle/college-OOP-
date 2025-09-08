@@ -28,7 +28,7 @@ void addMedicine(Medicine& med) {
     cout << "\nMedicine data recorded successfully.\n";
 }
 
-void displayMedicine(const Medicine& med) {
+void displayMedicine(const Medicine med) {
     cout << "\n--- Medicine Details ---\n";
     cout << "Name: " << med.name << "\n";
     cout << "Batch Number: " << med.batchNumber << "\n";
@@ -52,4 +52,5 @@ int main() {
     }
 
     return 0;
+
 }
